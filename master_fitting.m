@@ -108,7 +108,7 @@ end
 
 %% -------------------- SESSION SIMULATION SETTINGS --------------------
 sessioncfg = struct();
-sessioncfg.n_trials_session = 220;
+sessioncfg.n_trials_session = 1000; % can decrease to 200 to resembled game played by subjects
 sessioncfg.burnin           = simcfg.burnin;
 sessioncfg.smooth_post      = simcfg.smooth_post;
 clear functions

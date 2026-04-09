@@ -2,7 +2,7 @@
 % Updated trajectory / posterior visualization using fit1
 % Assumes fit1, offers, simcfg already exist in workspace
 % =========================================================
-
+load('optimization_run.mat')
 rng(simcfg.rngSeed);   % reproducible example trajectory
 
 p = fit1.params;
